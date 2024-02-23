@@ -33,7 +33,7 @@ async function createProjectContainer(data) {
 
     const imgProject = document.createElement('img');
     imgProject.alt = project.name;
-    imgProject.src = `/src/public/imageProject/${project.name}.png`
+    imgProject.src = `public/imageProject/${project.name}.png`
 
     const projectDescription = document.createElement('div');
     projectDescription.className = 'project-description';
