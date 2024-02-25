@@ -117,6 +117,10 @@ header {
   .open {
     display: block;
   }
+
+  .arrow-down {
+    display: none;
+  }
 }
 
 .apresentation {
