@@ -513,7 +513,7 @@ header {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1420px) {
   .work-and-school-container {
     flex-direction: column;
   }
@@ -529,6 +529,23 @@ header {
   .skils-img {
     width: 32px;
   }
+
+  .skiks-container {
+    padding: 0.5rem;
+  }
+
+  .skils-card {
+    width: 10rem;
+    font-size: 20px;
+  }
+  .skils-img {
+    width: 32px;
+  }
+  .projects-section {
+    margin: 10rem 2rem;
+  }
+
+  
 }
 
 @media (max-width: 1250px) {
