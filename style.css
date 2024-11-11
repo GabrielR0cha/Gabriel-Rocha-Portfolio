@@ -13,10 +13,13 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -1044,8 +1047,6 @@ strong {
 
 }
 
-
-
   .timeline {
     flex-direction: column;
     justify-content: center;
@@ -1171,6 +1172,10 @@ strong {
     font-size: small;
     width: 15rem;
   }
+
+  .work-and-school-container > div > h1{
+    font-size: 15px;
+  }  
 
   .button_cv {
     padding: 0.5rem 1rem;
