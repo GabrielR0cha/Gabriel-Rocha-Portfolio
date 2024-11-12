@@ -183,14 +183,14 @@ header {
 
 .developer {
   font-size: 80px;
-  color: #f9f9f9;
+  color: #f9f9f9 ;
 
 }
 
 .description {
   margin-top: 1rem;
   width: 100%;
-  color: #e4e2e4;
+  color: var(--fifth-color-gray);
   font-size: large;
   
 }
@@ -209,7 +209,7 @@ header {
 }
 
 .button-cv:hover {
-  transform: scale(1.1); /* Aumenta o botão em 10% */
+  transform: scale(1.1); 
 }
 
 .apresentation-image {
@@ -307,7 +307,7 @@ strong {
   flex-direction: column;
   height: 50%;
   font-size: 25px;
-  color:#d3d0d3;
+  color:#d3d0d3 ;
 }
 
 .description-about > h1 {
@@ -387,7 +387,6 @@ strong {
   margin-left:5rem ;
 
 }
-
 
 .timeline {
   display: flex;
