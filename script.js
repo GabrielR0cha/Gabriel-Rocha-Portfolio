@@ -9,23 +9,12 @@ function menuShow() {
   }
 }
 
+
+
 function formatString(string) {
   return string.replace(/-/g, " ")
 }
 
-
-document.addEventListener("DOMContentLoaded", function () {
-  OverlayScrollbars(document.querySelectorAll("body"), {
-    className: "os-theme-dark",
-    scrollbars: {
-      visibility: "auto",       // A barra só aparece quando a página é rolada
-      autoHide: "leave",        // Esconde a barra quando o mouse não está sobre ela
-      autoHideDelay: 800,       // Tempo de espera para ocultar a barra (em ms)
-      dragScrolling: true,      // Permite arrastar a barra de rolagem com o mouse
-      clickScrolling: true      // Permite rolar clicando na barra
-    }
-  });
-});
 
 
 // async function createProjectContainer(data) {
