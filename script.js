@@ -15,6 +15,7 @@ function formatString(string) {
   return string.replace(/-/g, " ")
 }
 
+// LoadPage();
 
 
 // async function createProjectContainer(data) {
@@ -109,4 +110,3 @@ function formatString(string) {
   
 // }
 
-LoadPage();
