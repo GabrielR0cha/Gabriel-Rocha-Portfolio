@@ -149,10 +149,6 @@ header {
     display: grid;
   }
 
-  .arrow-down {
-    /* display: none; */
-  }
-
   
 }
 
@@ -841,7 +837,8 @@ strong {
 @media (max-width: 850px) {
   .apresentation {
     flex-direction: column-reverse;
-    justify-content: flex-end;
+    justify-content: center;
+    
     align-items: center;
   }
   .apresentation-image {
