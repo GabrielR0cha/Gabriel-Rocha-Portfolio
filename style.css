@@ -637,7 +637,7 @@ strong {
   display: flex;
   align-items: center;
   text-decoration:none;
-  justify-content: center;
+  justify-content: start;
   padding: 0.5rem 1rem;
   width: 10rem;
   margin: 0.5rem;
@@ -830,6 +830,14 @@ strong {
   .project-description > p{
     font-size: 20px;
     padding: 0;
+  }
+
+  .button-project {
+    margin-top: 2rem;
+  }
+
+  .contact-container {
+    margin: 0;
   }
 }
 
