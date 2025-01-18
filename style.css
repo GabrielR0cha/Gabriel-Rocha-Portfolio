@@ -841,6 +841,19 @@ strong {
   }
 }
 
+
+@media (max-width: 950px) {
+ 
+  .description-about {
+    font-size: 18px;
+  }
+
+  .about-container {
+    margin: 3rem;
+  }
+
+
+}
 @media (max-width: 850px) {
   .apresentation {
     flex-direction: column-reverse;
@@ -887,13 +900,6 @@ strong {
     text-align: center;
   }
 
-  .description-about {
-    font-size: 18px;
-  }
-
-  .about-container {
-    margin: 3rem;
-  }
 
   .skiks-container {
     margin-right: 0;
@@ -912,7 +918,7 @@ strong {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .description-about > p {
     font-size: 15px;
   }
@@ -920,9 +926,18 @@ strong {
   .typing-effect > h1 {
     font-size: 25px;
   }
+  
+  .timeline-text {
+    width: 7rem;
+  }
+ 
 
   .skils-section > h1 {
     font-size: 25px;
+  }
+
+  .company-name {
+    font-size: 0.8rem;
   }
   
 
@@ -965,6 +980,50 @@ strong {
 
 }
 
+
+/* @media (max-width: 650px) {
+ 
+  .skiks-container {
+    padding: 0;
+    flex-direction: column;
+  }
+  .skils-card {
+    justify-content: flex-start;
+    margin: 0.5rem;
+    width: 15rem;
+    font-size: 15px;
+  }
+  .skils-img {
+    width: 32px;
+  }
+  
+  .projects-section > h1 {
+    font-size: 25px;
+  }
+  
+  .projects-container {
+    margin: 1rem;
+    height: 35rem;
+
+  }
+  .project-description  {
+    margin: 0.5rem;
+  }
+  .project-description > p {
+    font-size: 15px;
+
+  }
+
+  .contact-section {
+    padding-top: 0;
+  }
+
+  .project-description > h1 {
+    font-size: 20px;
+  }
+} */
+
+
 @media (max-width: 560px) {
   .frame {
     height: 12rem;
@@ -996,18 +1055,6 @@ strong {
     padding: 1rem 2rem;
   }
 
-  .work-and-school-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-  }
-
-  .work-and-school-professional {
-    justify-content: center;
-    align-items: center;
-  }
 
 .work-and-school-container > div > h1{
   display: flex;
@@ -1043,7 +1090,7 @@ strong {
     content: "";
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 41px;
     width: 2px;
     height: 100%;
     z-index: 0;
